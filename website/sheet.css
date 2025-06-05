@@ -1,0 +1,154 @@
+body{
+    margin: 0px;
+    scroll-behavior: smooth;
+    font-family: sans-serif;
+    
+}
+#title{
+        background-color: hsl(0, 0%, 0%);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        
+
+}
+#relix{
+    display: flex;
+    justify-self: center;
+}
+p{color :rgba(255, 255, 255, 0.527);}
+pre{color :rgba(255, 255, 255, 0.527)}
+h2{color :rgba(255, 255, 255, 0.527)}
+h3{color :rgba(255, 255, 255, 0.527)}
+h4{color :rgba(255, 255, 255, 0.527)}
+h5{color :rgba(255, 255, 255, 0.527)}
+h6{color :rgba(255, 255, 255, 0.527)}
+h1{color :rgba(255, 255, 255, 0.527)}
+.fa-solid.fa-music{
+    margin: 30px;
+    scale: 2;
+    color: rgb(21, 134, 200);
+}
+#title h1{
+    text-align: center;
+    color: rgb(21, 134, 200);
+}
+main{
+    background-color: hsl(0, 3%, 13%);
+    margin: 0%;
+    padding: 0px;
+    overflow: hidden;
+}
+
+#tame{
+    display: flow-root;
+}
+#tame-img{
+    width: 40%;
+    object-fit: contain;
+    margin: 10px;
+    float: right;
+    display: inline-block;
+}
+.name{
+    display: inline-block;
+    text-align: center;
+    padding: 5px;
+    box-shadow: 3px 3px 5px rgb(21, 134, 200) , -3px -3px 5px rgb(21, 134, 200);
+    margin-bottom: 3em;
+}
+#tame-bio{
+    font-size: 1.3em;
+    margin-right: 5px;
+}
+hr{
+    border: none;
+    height: 1px;
+    color: transparent;
+    box-shadow: 0px 3px 3px rgb(21, 134, 200);
+    margin: 5px;
+}
+#vid{
+    object-fit: contain;
+    width: 40%;
+    float: left;
+    display: inline-block;
+    justify-content: center ;
+    margin: 5px;
+    border: solid black;
+    object-fit: contain;
+
+}
+.albom{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    row-gap: 3em;
+}
+.albom div{
+    display: inline-block;
+    width: 20vw;
+    box-shadow: 3px 3px 3px rgb(21, 134, 200) , -3px -3px 3px rgb(21, 134, 200);
+    min-width: 200px;
+}
+.albom div img{
+    object-fit: contain;
+    max-width: 100%;
+}
+.albom div h3{
+    align-self: center;
+    justify-self: center;
+    text-decoration: underline rgb(21, 134, 200);
+
+}
+.group{
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+
+}
+.info{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 5em;
+    max-height: 2em;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 40vh;
+    column-gap: 10vw;
+    background-color: hsl(0, 0%, 0%)
+}
+
+.fa-brands.fa-youtube , .fa-brands.fa-instagram , .fa-brands.fa-x-twitter ,.fa-brands.fa-facebook ,.fa-brands.fa-spotify , .fa-brands.fa-github {
+    color:rgb(21, 134, 200) ;
+}
+a {
+  all: unset;
+  cursor: pointer;
+  color: inherit;
+  text-decoration: none;
+}
+nav {
+    display: flex;
+    background-color: hsl(0, 3%, 13%);
+    min-height: 10vh;
+    border-bottom: 1px solid rgb(21, 134, 200);
+    text-align: center;
+    position: sticky;
+    align-items: center;
+    justify-content: center;
+
+}
+nav a {
+    scroll-behavior: smooth;
+
+    color: white   ;
+    border-right: 1px solid grey;
+    padding: 10px;
+    object-fit: contain;
+}
